@@ -1,0 +1,13 @@
+name: Builds
+on:
+  push:
+    branches-ignore:
+      - feature/buildpom
+jobs:
+  maven-build:
+    name: Maven Build
+    uses: Xpanse-Shared-Resources/ghw-java-maven-pom-build/.github/workflows/workflow.yml@v1.2.0
+    with:
+      java-version: 17
+      #artifact-registry: artifactory
+    secrets: inherit

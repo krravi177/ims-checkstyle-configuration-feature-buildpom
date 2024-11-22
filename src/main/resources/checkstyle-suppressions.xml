@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
+        "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+<suppressions>
+    <suppress checks="RegexpMultiline" files=".*"/>
+    <suppress checks="FileTabCharacter" files=".*"/>
+    <suppress checks="FinalLocalVariable" files=".*"/>
+    <suppress checks="FinalParameters" files=".*"/>
+    <suppress checks="EmptyLineSeparator" files=".*"/>
+    <suppress checks="Indentation" files=".*"/>
+    <suppress checks="ModifierOrder" files=".*"/>
+    <suppress checks="MagicNumber" files=".*"/>
+    <suppress checks="AvoidStarImport" files=".*"/>
+    <suppress checks="MemberName" files=".*"/>
+    <suppress checks="NonEmptyAtclauseDescription" files=".*"/>
+    <suppress checks="UnusedImports" files=".*"/>
+    <suppress checks="ImportOrder" files=".*"/>
+    <suppress checks="ConstantName" files=".*"/>
+    <suppress checks="NoWhitespaceBefore" files=".*"/>
+    <suppress checks="WhitespaceAround" files=".*"/>
+    <suppress checks="VisibilityModifier" files=".*"/>
+    <suppress checks="LineLength" files=".*"/>
+    <suppress checks="EqualsAvoidNull" files=".*"/>
+    <suppress checks="TrailingComment" files=".*"/>
+    <suppress checks="RightCurly" files=".*"/>
+    <suppress checks="ParameterName" files=".*"/>
+    <suppress checks="HiddenField" files=".*"/>
+</suppressions>

@@ -1,0 +1,14 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - feature/buildpom
+
+jobs:
+  maven-deploy:
+    name: Maven Deploy
+    uses: Xpanse-Shared-Resources/ghw-java-maven-pom-deploy/.github/workflows/workflow.yml@v1.2.0
+    with:
+      java-version: 17
+      #artifact-registry: artifactory
+    secrets: inherit
